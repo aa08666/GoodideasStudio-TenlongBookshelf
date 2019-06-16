@@ -1,0 +1,6 @@
+framework module Pods_GoodideasStudio_Tenlong_Bookshelf {
+  umbrella header "Pods-GoodideasStudio Tenlong Bookshelf-umbrella.h"
+
+  export *
+  module * { export * }
+}
