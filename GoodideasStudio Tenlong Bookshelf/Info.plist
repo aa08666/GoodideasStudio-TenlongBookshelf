@@ -46,5 +46,7 @@
 		<key>NSAllowsArbitraryLoadsInWebContent</key>
 		<true/>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>We need to access your camera for scanning QR code</string>
 </dict>
 </plist>

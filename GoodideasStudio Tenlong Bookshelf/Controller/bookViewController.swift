@@ -41,7 +41,7 @@ class bookViewController: UIViewController {
         bookCollectionView.dataSource = self
         bookCollectionView.delegate = self
         configureSearchController()
-        configureRefreshControl()
+        configRefreshControl()
         floatingButtonShadow(backToTopButton)
         getBooksData()
         hideFloatingButton()
@@ -63,9 +63,7 @@ class bookViewController: UIViewController {
         }
     }
     
- 
-    
-    
+  
     func getUpdateTime(timeinterval: TimeInterval) -> String {
         let date = Date(timeIntervalSince1970: timeinterval)
         let dateFormatter = DateFormatter()
@@ -94,7 +92,7 @@ class bookViewController: UIViewController {
         }
     }
     
-    func configureRefreshControl() {
+    func configRefreshControl() {
         refreshControl = UIRefreshControl()
         refreshControl.alpha = 0
         refreshControl.addTarget(self, action: #selector(getBooksData), for: .valueChanged)
@@ -127,3 +125,4 @@ class bookViewController: UIViewController {
 struct BookshelfSeugeIdenifier {
     static let linkToWebView = "linkToWebView"
 }
+

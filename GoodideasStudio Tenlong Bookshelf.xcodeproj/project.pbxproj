@@ -10,7 +10,7 @@
 		90326F0122B09566007611E2 /* WishWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90326F0022B09566007611E2 /* WishWebViewController.swift */; };
 		90326F0322B0DC0D007611E2 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90326F0222B0DC0D007611E2 /* MainTabController.swift */; };
 		90326F0522B0E850007611E2 /* DeviceInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90326F0422B0E850007611E2 /* DeviceInput.swift */; };
-		90326F0722B0F13A007611E2 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90326F0622B0F13A007611E2 /* CameraPreview.swift */; };
+		90556BD422D48BB7003F0E14 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90556BD322D48BB7003F0E14 /* QRScannerController.swift */; };
 		905B56F222AE02410066B1A8 /* BookCollectionViewEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905B56F122AE02410066B1A8 /* BookCollectionViewEX.swift */; };
 		905B56F422AE48E30066B1A8 /* GetBookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905B56F322AE48E30066B1A8 /* GetBookData.swift */; };
 		90875DA322A76CFC00EBAFA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90875DA222A76CFC00EBAFA7 /* AppDelegate.swift */; };
@@ -31,7 +31,7 @@
 		90326F0022B09566007611E2 /* WishWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishWebViewController.swift; sourceTree = "<group>"; };
 		90326F0222B0DC0D007611E2 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 		90326F0422B0E850007611E2 /* DeviceInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInput.swift; sourceTree = "<group>"; };
-		90326F0622B0F13A007611E2 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		90556BD322D48BB7003F0E14 /* QRScannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
 		905B56F122AE02410066B1A8 /* BookCollectionViewEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewEX.swift; sourceTree = "<group>"; };
 		905B56F322AE48E30066B1A8 /* GetBookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBookData.swift; sourceTree = "<group>"; };
 		90875D9F22A76CFC00EBAFA7 /* GoodideasStudio Tenlong Bookshelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoodideasStudio Tenlong Bookshelf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,7 +105,6 @@
 				90875DAE22A76CFE00EBAFA7 /* Info.plist */,
 				9088650A22AA481000E2E395 /* LoadingAnimation.swift */,
 				90326F0422B0E850007611E2 /* DeviceInput.swift */,
-				90326F0622B0F13A007611E2 /* CameraPreview.swift */,
 				9088650122A9136A00E2E395 /* Controller */,
 				9088650022A9136400E2E395 /* View */,
 				908864FF22A9135800E2E395 /* Model */,
@@ -138,6 +137,7 @@
 				9088650C22AA519500E2E395 /* BookTelongWebViewController.swift */,
 				90326F0022B09566007611E2 /* WishWebViewController.swift */,
 				90326F0222B0DC0D007611E2 /* MainTabController.swift */,
+				90556BD322D48BB7003F0E14 /* QRScannerController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -275,8 +275,8 @@
 				9088650922AA3DB700E2E395 /* bookViewController.swift in Sources */,
 				9088650322A913EC00E2E395 /* BookDataModel.swift in Sources */,
 				90875DA322A76CFC00EBAFA7 /* AppDelegate.swift in Sources */,
-				90326F0722B0F13A007611E2 /* CameraPreview.swift in Sources */,
 				905B56F222AE02410066B1A8 /* BookCollectionViewEX.swift in Sources */,
+				90556BD422D48BB7003F0E14 /* QRScannerController.swift in Sources */,
 				90326F0522B0E850007611E2 /* DeviceInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
